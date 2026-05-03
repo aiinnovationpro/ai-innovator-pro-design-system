@@ -36,6 +36,7 @@ function AppInner() {
       <Navbar
         navItems={NAV_ITEMS}
         ctaLabel="View on GitHub"
+        onCtaClick={() => window.open('https://github.com/aiinnovationpro/ai-innovator-pro-design-system', '_blank', 'noopener,noreferrer')}
         darkMode={darkMode}
         onToggleDark={() => setDarkMode(v => !v)}
       />
